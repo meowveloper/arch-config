@@ -1,17 +1,22 @@
 #!/bin/bash
 
-BUILD_DIR="/tmp/dcli-install-build"
+set -euo pipefail
+
+
 DCLI_DIR="${HOME}/.config/arch-config"
 
-rm -rf "${BUILD_DIR}"
-
-git clone https://gitlab.com/theblackdon/dcli.git "${BUILD_DIR}"
-
-bash "${BUILD_DIR}/install.sh"
-
-mkdir -p "${HOME}/.config"
-
-git clone https://github.com/meowveloper/arch-config.git "${DCLI_DIR}"
+bash "${DCLI_DIR}/yay-install.sh"
+bash "${DCLI_DIR}/dcli-install.sh"
 
 dcli sync
+
+echo -e "${GREEN}Updating font cache${NC}"
+fc-cache -f -v
+
+echo -e "${GREEN}Enabling system-wide services${NC}"
+sudo systemctl enable --now warp-svc.service
+
+bash "${DCLI_DIR}/scripts/archlinux.sh"
+echo -e "${GREEN}All done! You can reboot now!!${NC}"
+
 

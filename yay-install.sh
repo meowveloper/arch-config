@@ -1,13 +1,14 @@
 #!/bin/bash
+
+set -euo pipefail
+
 BUILD_DIR="/tmp/yay-install-build"
-SOURCEDIR="${HOME}/.local/share/chezmoi"
 
 echo "Attempting to install yay..."
 
 if command -v yay &> /dev/null
 then
     echo "yay is already installed. Skipping build process."
-    bash "${SOURCEDIR}/start-up/install-extra-packages.sh"
     exit 0
 fi
 
@@ -23,4 +24,3 @@ rm -rf "$BUILD_DIR"
 
 echo "yay installation complete."
 
-bash "${SOURCEDIR}/start-up/install-extra-packages.sh"
