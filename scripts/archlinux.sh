@@ -17,5 +17,4 @@ rm -rf "$CHEZMOI_DIR"
 ln -s "${SOURCE_DIR}/chezmoi/archlinux" "${CHEZMOI_DIR}"
 
 echo -e "${GREEN}Applying chezmoi dotfiles${NC}"
-
-bash "${HOME}/.config/hypr/start-up.sh"
+chezmoi apply
