@@ -14,6 +14,7 @@ packages:
   - inter-font
   - ttf-fira-code
   - greetd-dms-greeter-git
+  - hyprshot
 
 conflicts: []
 
