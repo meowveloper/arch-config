@@ -1,0 +1,16 @@
+
+description: For - VM
+
+# List of packages in this module
+packages: 
+  - qemu-desktop
+  - ovmf
+  - virt-manager
+  - ebtables
+  - dnsmasq
+  - swtpm
+# Modules that conflict with this one
+conflicts: []
+
+# Script to run after installing packages (optional)
+post_install_hook: ""
