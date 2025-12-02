@@ -20,5 +20,11 @@ chezmoi apply
 
 pkill waybar
 dms greeter enable
+sudo systemctl enable greetd
 dms greeter sync
 bash "${HOME}/.config/hypr/start-up.sh"
+
+echo "run the following two cmds"
+echo "dms greeter enable"
+echo "dms greeter sync"
+
