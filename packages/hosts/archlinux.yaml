@@ -50,8 +50,6 @@ packages:
   - nwg-look
   - openssh
   - pacman-contrib
-  - paru
-  - paru-debug
   - pipewire
   - pipewire-alsa
   - pipewire-jack
@@ -104,5 +102,8 @@ packages:
   - yazi
   - zoxide
   - zed
+  - edk2-ovmf
+  - iptables-nft
+  - reflector
 # Packages to exclude from base or modules on this host
 exclude: []
