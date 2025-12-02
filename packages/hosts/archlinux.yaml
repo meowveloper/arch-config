@@ -59,7 +59,7 @@ packages:
   - qt5-wayland
   - qt6-languageserver
   - qt6-wayland
-  - quickshell-git
+  - quickshell
   - ripgrep
   - rmpc
   - rofi
