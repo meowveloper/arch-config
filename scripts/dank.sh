@@ -17,5 +17,8 @@ ln -s "${SOURCE_DIR}/chezmoi/dank" "${CHEZMOI_DIR}"
 
 echo -e "${GREEN}Applying chezmoi dotfiles${NC}"
 chezmoi apply
+
 pkill waybar
+dms greeter enable
+dms greeter sync
 bash "${HOME}/.config/hypr/start-up.sh"
