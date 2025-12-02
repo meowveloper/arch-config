@@ -23,7 +23,7 @@ swaync &
 if [[ -f ~/.cache/last-wallpaper ]]; then
     matugen image ~/.cache/last-wallpaper
 else
-    matugen image ~/.config/wallpapers/wallhaven-57qky5.jpg
+    matugen image ~/.config/wallpapers/wallhaven-xld2k3.jpg
 fi
 
 # 6. Start the rest
