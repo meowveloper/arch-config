@@ -1,0 +1,20 @@
+description: For - Dank
+
+packages: 
+  - quickshell
+  - hyprland
+  - cava
+  - cliphist
+  - wl-clipboard 
+  - dgop
+  - dsearch
+  - matugen
+  - qt6-multimedia
+  - dms-shell-bin
+  - ttf-material-symbols-variable-git
+  - inter-font
+  - ttf-fira-code
+
+conflicts: []
+
+post_install_hook: "scripts/dank.sh"
