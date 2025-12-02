@@ -2,9 +2,13 @@
 
 set -euo pipefail
 
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+NC='\033[0m' # No Color
+
 echo -e "${GREEN}Installing dcli${NC}"
 
-sudo pacman -S --needed go-yq --noconfirm 
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 BUILD_DIR="/tmp/dcli-install-build"
 rm -rf "${BUILD_DIR}"

@@ -10,4 +10,3 @@ packages:
   - networkmanager
   - vim
   - git
-  - go-yq  # YAML processor for dcli
