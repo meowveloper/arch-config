@@ -5,9 +5,12 @@ RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m' # No Color
 
-mkdir -p "${HOME}/.local/share"
-CHEZMOI_DIR="${HOME}/.local/share/chezmoi"
-SOURCE_DIR="${HOME}/.config/arch-config"
+TARGET_USER="${SUDO_USER:-$USER}"
+TARGET_HOME="/home/${TARGET_USER}"
+
+mkdir -p "${TARGET_HOME}/.local/share"
+CHEZMOI_DIR="${TARGET_HOME}/.local/share/chezmoi"
+SOURCE_DIR="${TARGET_HOME}/.config/arch-config"
 
 echo -e "${GREEN}Creating symlink of the chezmoi directory${NC}"
 
@@ -22,7 +25,7 @@ pkill waybar
 dms greeter enable
 sudo systemctl enable greetd
 dms greeter sync
-bash "${HOME}/.config/hypr/start-up.sh"
+bash "${TARGET_HOME}/.config/hypr/start-up.sh"
 
 echo "run the following two cmds"
 echo "dms greeter enable"
