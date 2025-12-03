@@ -1,11 +1,9 @@
-# Example module template
-# Copy this to create new modules, or delete it
 
-description: Example module - customize or delete this
+description: for - pandoc
 
 # List of packages in this module
-packages: []
-
+packages: 
+  - pandoc
 # Modules that conflict with this one
 conflicts: []
 
