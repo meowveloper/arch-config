@@ -15,6 +15,9 @@ packages:
   - ttf-fira-code
   - greetd-dms-greeter-git
   - hyprshot
+  - meson
+  - cmake
+  - cpio
 
 conflicts: []
 
