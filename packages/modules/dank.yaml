@@ -18,7 +18,8 @@ packages:
   - meson
   - cmake
   - cpio
+  - brightnessctl
 
 conflicts: []
 
-post_install_hook: "scripts/dank.sh"
+post_install_hook: ""
