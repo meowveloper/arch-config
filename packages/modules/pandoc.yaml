@@ -2,7 +2,7 @@
 description: for - pandoc
 
 packages: 
-  - pandoc
+  - pandoc-cli
   - texlive-full
 conflicts: []
 
