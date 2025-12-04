@@ -1,11 +1,9 @@
 
 description: for - pandoc
 
-# List of packages in this module
 packages: 
   - pandoc
-# Modules that conflict with this one
+  - texlive-full
 conflicts: []
 
-# Script to run after installing packages (optional)
 post_install_hook: ""

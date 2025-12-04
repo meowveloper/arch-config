@@ -125,7 +125,7 @@
   ],
   "dankBarWidgetOrder": [],
   "appLauncherViewMode": "grid",
-  "spotlightModalViewMode": "grid",
+  "spotlightModalViewMode": "list",
   "sortAppsAlphabetically": false,
   "appLauncherGridColumns": 4,
   "weatherLocation": "New York, NY",
