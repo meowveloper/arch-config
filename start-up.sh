@@ -11,7 +11,11 @@ DCLI_DIR="${HOME}/.config/arch-config"
 bash "${DCLI_DIR}/yay-install.sh"
 bash "${DCLI_DIR}/dcli-install.sh"
 
+echo -e "${GREEN}Running dcli sync${NC}"
 dcli sync
+
+echo -e "${GREEN}Setting up flatpak${NC}"
+flatpak remote-add --if-not-exists --system flathub https://flathub.org/repo/flathub.flatpakrepo
 
 echo -e "${GREEN}Updating font cache${NC}"
 fc-cache -f -v
