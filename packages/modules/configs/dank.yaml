@@ -21,4 +21,4 @@ packages:
 
 conflicts: []
 
-post_install_hook: ""
+post_install_hook: "scripts/dank.sh"
