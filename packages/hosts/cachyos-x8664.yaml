@@ -54,7 +54,6 @@ packages:
 - f2fs-tools
 - fastfetch
 - ffmpegthumbnailer
-- firefox
 - fsarchiver
 - glances
 - gst-libav
@@ -178,7 +177,6 @@ packages:
 - wireless-regdb
 - wireplumber
 - wl-clipboard
-- wofi
 - wpa_supplicant
 - xdg-desktop-portal-hyprland
 - xdg-user-dirs
