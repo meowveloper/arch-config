@@ -18,6 +18,7 @@ packages:
   - meson
   - cmake
   - cpio
+  - dsearch-bin
 
 conflicts: []
 
