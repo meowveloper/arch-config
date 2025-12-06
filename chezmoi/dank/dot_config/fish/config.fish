@@ -24,7 +24,5 @@ function fish_greeting
 	# nothing
 end
 
-# zoxide (smarter cd)
-if command -v zoxide >/dev/null 2>&1; then
-    eval "$(zoxide init bash)"
-fi
+
+zoxide init fish | source
