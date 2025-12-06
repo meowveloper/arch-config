@@ -14,3 +14,7 @@ function y
 	end
 	rm -f -- "$tmp"
 end
+
+function fish_greeting
+	# nothing
+end
