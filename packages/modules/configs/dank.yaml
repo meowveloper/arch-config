@@ -2,7 +2,6 @@ description: For - Dank
 
 packages: 
   - quickshell
-  - hyprland
   - cava
   - cliphist
   - wl-clipboard 
@@ -19,6 +18,36 @@ packages:
   - cmake
   - cpio
   - dsearch-bin
+  - chezmoi
+  - cloudflare-warp-bin
+  - chromium
+  - fd
+  - fastfetch
+  - flatpak
+  - fzf
+  - ghostty
+  - git-lfs
+  - github-cli
+  - lazygit
+  - librewolf-bin
+  - mpd
+  - neovim
+  - noto-fonts
+  - qt5-wayland
+  - qt6-wayland
+  - ripgrep
+  - rmpc
+  - slurp
+  - starship
+  - tmux
+  - unzip
+  - ttf-jetbrains-mono-nerd
+  - ttf-noto-nerd
+  - vlc
+  - vlc-plugin-ffmpeg
+  - webapp-manager
+  - yazi
+  - zoxide
 
 conflicts: []
 
