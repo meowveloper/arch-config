@@ -17,8 +17,6 @@ packages:
     type: flatpak
   - name: org.telegram.desktop
     type: flatpak
-  - name: us.zoom.Zoom
-    type: flatpak
   - name: org.gnome.TextEditor
     type: flatpak
   

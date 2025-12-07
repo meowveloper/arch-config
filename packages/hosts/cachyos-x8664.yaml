@@ -72,7 +72,6 @@ packages:
 - iptables-nft
 - iwd
 - jfsutils
-- kitty
 - less
 - lib32-mesa
 - lib32-nvidia-utils

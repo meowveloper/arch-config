@@ -17,4 +17,4 @@ packages:
 
 conflicts: []
 
-post_install_hook: "scripts/own-config.sh"
+post_install_hook: ""
