@@ -19,7 +19,6 @@ packages:
   - eza
   - fastfetch
   - fd
-  - flatpak
   - fzf
   - ghostty
   - git-lfs
@@ -32,7 +31,6 @@ packages:
   - iwd
   - lazygit
   - libpulse
-  - librewolf-bin
   - libva-intel-driver
   - limine
   - mpd

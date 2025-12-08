@@ -29,7 +29,6 @@ packages:
   - git-lfs
   - github-cli
   - lazygit
-  - librewolf-bin
   - mpd
   - neovim
   - noto-fonts

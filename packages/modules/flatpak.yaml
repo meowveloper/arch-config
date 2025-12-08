@@ -1,6 +1,7 @@
 description: Flatpak apps
 
 packages: 
+  - flatpak
   - name: com.discordapp.Discord
     type: flatpak
   - name: com.github.tchx84.Flatseal
@@ -18,6 +19,8 @@ packages:
   - name: org.telegram.desktop
     type: flatpak
   - name: org.gnome.TextEditor
+    type: flatpak
+  - name: app.zen_browser.zen
     type: flatpak
   
 conflicts: []
