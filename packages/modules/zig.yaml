@@ -1,8 +1,7 @@
-
-description: for - pandoc
+description: for - zig
 
 packages: 
-  - pandoc-cli
+  - libspng
 
 conflicts: []
 
