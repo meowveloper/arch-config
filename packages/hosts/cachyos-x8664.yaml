@@ -42,7 +42,7 @@ packages:
 - dmidecode
 - dmraid
 - dnsmasq
-- dolphin
+- nautilus
 - dosfstools
 - duf
 - e2fsprogs
