@@ -29,13 +29,14 @@ packages:
   - git-lfs
   - github-cli
   - lazygit
-  - mpd
   - neovim
   - noto-fonts
   - qt5-wayland
   - qt6-wayland
   - ripgrep
   - rmpc
+  - mpd
+  - yt-dlp
   - slurp
   - starship
   - tmux
