@@ -2,6 +2,7 @@ description: Flatpak apps
 
 packages: 
   - flatpak
+  - xdg-desktop-portal-gnome
   - name: com.discordapp.Discord
     type: flatpak
   - name: com.github.tchx84.Flatseal
