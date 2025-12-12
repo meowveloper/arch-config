@@ -1,5 +1,5 @@
 [Default Applications]
-inode/directory=nautilus.desktop
+inode/directory=org.gnome.Nautilus.desktop
 text/x-adasrc=nvim.desktop
 text/x-authors=nvim.desktop
 text/x-basic=nvim.desktop
