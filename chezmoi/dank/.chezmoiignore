@@ -2,3 +2,5 @@
 .config/hypr/src/user-specific.conf
 .config/shell/user
 .config/ghostty/config-dankcolors
+.config/gtk-3.0/dank-colors.css
+.config/gtk-4.0/dank-colors.css
