@@ -15,8 +15,6 @@ packages:
     type: flatpak
   - name: com.obsproject.Studio
     type: flatpak
-  - name: com.protonvpn.www
-    type: flatpak
   - name: com.super_productivity.SuperProductivity
     type: flatpak
   - name: com.viber.Viber

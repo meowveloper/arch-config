@@ -48,6 +48,7 @@ packages:
   - zoxide
   - eza
   - neovim
+  - proton-vpm-gtk-app
   - bat
   - zsh
 
