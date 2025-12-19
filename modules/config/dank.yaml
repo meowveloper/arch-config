@@ -1,0 +1,55 @@
+description: For - Dank
+
+packages: 
+  - quickshell
+  - cava
+  - cliphist
+  - wl-clipboard 
+  - dgop
+  - matugen
+  - qt6-multimedia
+  - dms-shell-bin
+  - ttf-material-symbols-variable-git
+  - inter-font
+  - ttf-fira-code
+  - greetd-dms-greeter-git
+  - hyprshot
+  - meson
+  - cmake
+  - cpio
+  - dsearch-bin
+  - chezmoi
+  - cloudflare-warp-bin
+  - chromium
+  - fd
+  - fastfetch
+  - flatpak
+  - fzf
+  - ghostty
+  - git-lfs
+  - github-cli
+  - lazygit
+  - noto-fonts
+  - ripgrep
+  - rmpc
+  - mpd
+  - yt-dlp
+  - slurp
+  - starship
+  - tmux
+  - unzip
+  - hyprland
+  - ttf-jetbrains-mono-nerd
+  - ttf-noto-nerd
+  - vlc
+  - vlc-plugin-ffmpeg
+  - webapp-manager
+  - yazi
+  - zoxide
+  - eza
+  - neovim
+  - bat
+
+conflicts: []
+
+post_install_hook: ""

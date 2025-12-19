@@ -1,0 +1,9 @@
+
+description: for - pandoc
+
+packages: 
+  - pandoc-cli
+
+conflicts: []
+
+post_install_hook: ""

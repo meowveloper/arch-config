@@ -1,0 +1,8 @@
+description: for - zig
+
+packages: 
+  - libspng
+
+conflicts: []
+
+post_install_hook: ""

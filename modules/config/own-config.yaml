@@ -1,0 +1,20 @@
+description: For - own config
+
+packages: 
+  - brightnessctl
+  - matugen
+  - nwg-look
+  - rofi
+  - sddm
+  - swaync
+  - waybar
+  - swww
+  - btop
+  - hyprland
+  - hyprlock
+  - hyprshot
+  - hyprsunset
+
+conflicts: []
+
+post_install_hook: ""

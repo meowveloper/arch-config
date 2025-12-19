@@ -1,0 +1,24 @@
+host: archlinux
+description: laptop
+import: []
+enabled_modules:
+- base
+- config/dank
+- flatpak
+- work
+- zig
+packages: []
+exclude: []
+additional_packages: []
+backup_tool: timeshift
+snapper_config: root
+flatpak_scope: system
+auto_prune: false
+config_backups:
+  enabled: true
+  max_backups: 5
+services:
+  enabled: []
+  disabled: []
+editor: null
+aur_helper: null

@@ -1,0 +1,37 @@
+description: Flatpak apps
+
+packages: 
+  - flatpak
+  - xdg-desktop-portal
+  - xdg-desktop-portal-gnome
+  - xdg-desktop-portal-gtk
+  - xdg-desktop-portal-wlr
+
+  - name: com.discordapp.Discord
+    type: flatpak
+  - name: com.github.tchx84.Flatseal
+    type: flatpak
+  - name: com.stremio.Stremio
+    type: flatpak
+  - name: com.obsproject.Studio
+    type: flatpak
+  - name: com.protonvpn.www
+    type: flatpak
+  - name: com.super_productivity.SuperProductivity
+    type: flatpak
+  - name: com.viber.Viber
+    type: flatpak
+  - name: org.telegram.desktop
+    type: flatpak
+  - name: org.gnome.TextEditor
+    type: flatpak
+  - name: app.zen_browser.zen
+    type: flatpak
+  - name: com.usebruno.Bruno
+    type: flatpak
+  - name: com.github.unrud.VideoDownloader
+    type: flatpak
+  
+conflicts: []
+
+post_install_hook: "scripts/flatpak.sh"
