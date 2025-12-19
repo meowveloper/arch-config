@@ -49,6 +49,7 @@ packages:
   - eza
   - neovim
   - bat
+  - zsh
 
 conflicts: []
 
