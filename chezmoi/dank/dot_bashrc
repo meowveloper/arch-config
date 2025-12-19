@@ -1,4 +1,4 @@
-for file in ~/.config/shell/{profile,aliases,interactive} ~/.config/shell/*.bash; do
+for file in ~/.config/shell/{profile,aliases,interactive,user} ~/.config/shell/*.bash; do
     [[ -r "$file" ]] && source "$file"
 done
 
@@ -26,3 +26,4 @@ export NVM_DIR="$HOME/.config/nvm"
 
 source ~/.config/shell/user
 . "$HOME/.cargo/env"
+
