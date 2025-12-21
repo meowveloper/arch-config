@@ -2,6 +2,7 @@ description: for - zig
 
 packages: 
   - libspng
+  - zig
 
 conflicts: []
 
