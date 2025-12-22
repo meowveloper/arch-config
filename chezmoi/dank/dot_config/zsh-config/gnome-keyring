@@ -1,0 +1,4 @@
+if [ -n "$DESKTOP_SESSION" ] || [ -n "$DISPLAY" ] || [ -n "$WAYLAND_DISPLAY" ]; then
+    eval $(/usr/bin/gnome-keyring-daemon --start --components=secrets)
+    export SSH_AUTH_SOCK
+fi
