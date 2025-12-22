@@ -6,7 +6,6 @@ packages:
   - xdg-desktop-portal-gnome
   - xdg-desktop-portal-gtk
   - xdg-desktop-portal-wlr
-  - gnome-keyring
 
   - name: com.discordapp.Discord
     type: flatpak

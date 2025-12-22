@@ -48,9 +48,9 @@ packages:
   - zoxide
   - eza
   - neovim
-  - proton-vpn-cli
   - bat
   - zsh
+  - protonvpn-cli-community
 
 conflicts: []
 

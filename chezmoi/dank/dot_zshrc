@@ -70,6 +70,5 @@ function y() {
 
 source ~/.config/zsh-config/aliases
 source ~/.config/zsh-config/profile
-source ~/.config/zsh-config/gnome-keyring
 source ~/.config/zsh-config/user
 
