@@ -29,6 +29,8 @@ packages:
     type: flatpak
   - name: com.github.unrud.VideoDownloader
     type: flatpak
+  - name: net.nymtech.NymVPN
+    type: flatpak
   
 conflicts: []
 
