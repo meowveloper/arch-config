@@ -6,7 +6,6 @@ packages:
   - xdg-desktop-portal-gnome
   - xdg-desktop-portal-gtk
   - xdg-desktop-portal-wlr
-  - nym-vpnd-bin
 
   - name: com.discordapp.Discord
     type: flatpak
@@ -29,8 +28,6 @@ packages:
   - name: com.usebruno.Bruno
     type: flatpak
   - name: com.github.unrud.VideoDownloader
-    type: flatpak
-  - name: net.nymtech.NymVPN
     type: flatpak
   
 conflicts: []
