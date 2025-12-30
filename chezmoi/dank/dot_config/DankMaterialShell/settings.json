@@ -7,7 +7,7 @@
   "popupTransparency": 1,
   "dockTransparency": 0.85,
   "widgetBackgroundColor": "sch",
-  "widgetColorMode": "default",
+  "widgetColorMode": "colorful",
   "cornerRadius": 12,
   "use24HourClock": true,
   "showSeconds": false,
@@ -246,8 +246,7 @@
       "showOnLastDisplay": true,
       "leftWidgets": [
         "launcherButton",
-        "workspaceSwitcher",
-        "focusedWindow"
+        "workspaceSwitcher"
       ],
       "centerWidgets": [
         "music",
@@ -263,10 +262,10 @@
         "battery",
         "controlCenterButton"
       ],
-      "spacing": 1,
-      "innerPadding": 4,
-      "bottomGap": 0,
-      "transparency": 1,
+      "spacing": 0,
+      "innerPadding": 0,
+      "bottomGap": -5,
+      "transparency": 0,
       "widgetTransparency": 1,
       "squareCorners": false,
       "noBackground": false,
@@ -278,12 +277,14 @@
       "borderOpacity": 1,
       "borderThickness": 1,
       "fontScale": 1,
-      "autoHide": true,
+      "autoHide": false,
       "autoHideDelay": 250,
       "openOnOverview": false,
       "visible": true,
       "popupGapsAuto": true,
-      "popupGapsManual": 4
+      "popupGapsManual": 4,
+      "widgetOutlineEnabled": false,
+      "maximizeDetection": true
     }
   ],
   "configVersion": 2
