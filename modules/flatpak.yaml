@@ -7,8 +7,6 @@ packages:
   - xdg-desktop-portal-gtk
   - xdg-desktop-portal-wlr
 
-  - name: com.discordapp.Discord
-    type: flatpak
   - name: com.github.tchx84.Flatseal
     type: flatpak
   - name: com.stremio.Stremio
