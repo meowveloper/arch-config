@@ -29,7 +29,9 @@ packages:
     type: flatpak
   - name: com.github.unrud.VideoDownloader
     type: flatpak
-  
+  - name: com.logseq.Logseq
+    type: flatpak
+
 conflicts: []
 
 post_install_hook: "scripts/flatpak.sh"
