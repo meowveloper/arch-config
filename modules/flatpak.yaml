@@ -29,8 +29,6 @@ packages:
     type: flatpak
   - name: com.logseq.Logseq
     type: flatpak
-  - name: com.github.muriloventuroso.givemelyrics
-    type: flatpak
 
 conflicts: []
 
