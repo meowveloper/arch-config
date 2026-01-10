@@ -5,7 +5,6 @@ enabled_modules:
 - base
 - config/dank
 - flatpak
-- zig
 packages: []
 exclude: []
 additional_packages: []
