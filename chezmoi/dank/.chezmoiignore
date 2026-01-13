@@ -5,3 +5,7 @@
 .config/gtk-3.0/dank-colors.css
 .config/gtk-4.0/dank-colors.css
 .config/zsh-config/user
+.config/hypr/dms/colors.conf
+.config/ghostty/themes/dankcolors
+.config/DankMaterialShell/zen.css
+.config/DankMaterialShell/firefox.css
