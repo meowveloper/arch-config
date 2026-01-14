@@ -8,15 +8,44 @@ enabled_modules:
 packages: []
 exclude: []
 additional_packages: []
-backup_tool: timeshift
-snapper_config: root
 flatpak_scope: system
 auto_prune: false
+module_processing: parallel
+strict_package_order: false
 config_backups:
   enabled: true
   max_backups: 5
+system_backups:
+  enabled: true
+  backup_on_sync: true
+  backup_on_update: true
+  tool: timeshift
+  snapper_config: root
 services:
-  enabled: []
+  enabled:
+  - bluetooth
+  - cronie
+  - getty@
+  - greetd
+  - iwd
+  - systemd-network-generator
+  - systemd-networkd-wait-online
+  - warp-svc
   disabled: []
-editor: null
-aur_helper: null
+update_hooks:
+  pre_update: null
+  post_update: null
+  behavior: ask
+default_apps:
+  scope: system
+  browser: null
+  text_editor: nvim
+  file_manager: org.gnome.Nautilus
+  terminal: null
+  video_player: vlc
+  audio_player: vlc
+  image_viewer: chromium
+  pdf_viewer: chromium
+  mime_types: {}
+editor: nvim
+aur_helper: yay
