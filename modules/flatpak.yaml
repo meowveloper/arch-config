@@ -29,6 +29,8 @@ packages:
     type: flatpak
   - name: com.logseq.Logseq
     type: flatpak
+  - name: org.kde.kdenlive
+    type: flatpak
 
 conflicts: []
 
