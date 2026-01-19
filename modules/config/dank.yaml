@@ -51,6 +51,7 @@ packages:
   - bat
   - zsh
   - protonvpn-cli-community
+  - less
 
 conflicts: []
 
