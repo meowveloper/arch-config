@@ -1,0 +1,8 @@
+description: for - bun
+
+packages: 
+  - bun
+
+conflicts: []
+
+post_install_hook: ""
