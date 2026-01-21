@@ -6,6 +6,7 @@ enabled_modules:
 - config/dank
 - flatpak
 - burmese
+- bun
 packages: []
 exclude: []
 additional_packages: []
